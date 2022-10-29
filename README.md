@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @techwithanirudh
 - 👀 I’m interested in Python, HTML, JavaScript, PowerApps, ML, AI
-- 🌱 I’m currently learning How to make apps using electron.js
+- 🌐 My website is [techwithanirudh.com](https://www.techwithanirudh.com)
 
 # My Bio
 I'm a  young tech enthusiast. It all started when I was a 4-year-old. I discovered few Lego pieces in my toy chest. I built a minion with it. Impressed by my creation, my dad gifted me a Lego Classic kit. I knew it was the beginning of a new adventure. I started building new Lego creations. When I was 5, my grandpa bought me a Lego Boost kit to program the motors and sensors and build moving robots using block programming. I created new robots that were not in the Lego Boost app. I made a walking cast, a walking and talking robot. I also started a YouTube channel called Anirudh's Toys Review to post my Lego creations. 
