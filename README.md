@@ -3,7 +3,7 @@
 - 🌐 My website is [techwithanirudh.com](https://www.techwithanirudh.com)
 
 # My Bio
-As a young tech enthusiast in the age range of 10-13, I have a long history with Lego, starting with a few Lego pieces that I used to build a minion when I was 4 years old. My passion for building and programming with Lego continued to grow with the gift of a Lego Classic kit from my dad, and the acquisition of a Lego Boost kit from my grandpa, which allowed me to program motors and sensors and build moving robots using block programming. I even started a YouTube channel called Anirudh's Toys Review to share my Lego creations.
+As a young tech enthusiast, I have a long history with Lego, starting with a few Lego pieces that I used to build a minion when I was 4 years old. My passion for building and programming with Lego continued to grow with the gift of a Lego Classic kit from my dad, and the acquisition of a Lego Boost kit from my grandpa, which allowed me to program motors and sensors and build moving robots using block programming. I even started a YouTube channel called Anirudh's Toys Review to share my Lego creations.
 
 I later discovered the Lego Mindstorms kit, which allowed me to build advanced robots and code with Python using EV3Dev. My foray into text-based programming and AI began with Python, and I have created over 100 projects using OpenCV, Tensorflow, GPT, and Azure AI. I am the world's youngest Microsoft Powerplatform and Azure AI certified individual, demonstrating my expertise in these areas. In addition to my technical skills, I have also learned how to build no-code/low-code apps and web apps, and have explored other technologies such as Arduino, Raspberry Pi, and Linux.
 
