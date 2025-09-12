@@ -38,4 +38,4 @@
 
 Reach me on:
 - [Twitter](https://twitter.com/AnirudhWith) (Pretty active!)
-- [LinkedIn](https://linkedin.com/in/techwithanirudh)  
+- [LinkedIn](https://linkedin.com/in/anirudhsriramb)  
