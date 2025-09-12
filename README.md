@@ -1,19 +1,41 @@
-- 👋 Hi, I’m @techwithanirudh
-- 👀 I’m interested in Python, HTML, JavaScript, PowerApps, ML, AI
-- 🌐 My website is [techwithanirudh.com](https://www.techwithanirudh.com)
+# 👋 Hey, I’m Anirudh
 
-<!---
-# My Bio
-As a young tech enthusiast, I have a long history with Lego, starting with a few Lego pieces that I used to build a minion when I was 4 years old. My passion for building and programming with Lego continued to grow with the gift of a Lego Classic kit from my dad, and the acquisition of a Lego Boost kit from my grandpa, which allowed me to program motors and sensors and build moving robots using block programming. I even started a YouTube channel called Anirudh's Toys Review to share my Lego creations.
+👀 Into Next.js and AI 
 
-I later discovered the Lego Mindstorms kit, which allowed me to build advanced robots and code with Python using EV3Dev. My foray into text-based programming and AI began with Python, and I have created over 100 projects using OpenCV, Tensorflow, GPT, and Azure AI. I am the world's youngest Microsoft Powerplatform and Azure AI certified individual, demonstrating my expertise in these areas. In addition to my technical skills, I have also learned how to build no-code/low-code apps and web apps, and have explored other technologies such as Arduino, Raspberry Pi, and Linux.
+🌐 [techwithanirudh.com](https://www.techwithanirudh.com)  
 
-I have had the opportunity to collaborate with Bosch, a leading global supplier of technology and services, on an AI-based autonomous car project. This project has allowed me to apply my skills and knowledge to a real-world challenge and make a meaningful impact. I have also written a research paper on face swapping for autonomous cars, which has allowed me to delve deep into the complex issues surrounding privacy and AI bias in autonomous vehicles.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=techwithanirudh&show_icons=true&theme=gotham" alt="techwithanirudh stats" />
+</p>
 
-In my free time, I enjoy listening to electronic music and sharing my creations on my personal website and social media platforms. I am active on Replit, Twitter, and LinkedIn, where I engage with other like-minded individuals and share my thoughts and ideas.
---->
+---
 
-<!---
-techwithanirudh/techwithanirudh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## 🚀 Cool Projects
+
+- [shadcn-portfolio](https://github.com/techwithanirudh/shadcn-portfolio) · Sleek portfolio built with shadcn · ⭐117  
+- [shadcn-saas-landing](https://github.com/techwithanirudh/shadcn-saas-landing) · Customizable SaaS landing template with shadcn  
+- [discord-ai-bot](https://github.com/techwithanirudh/discord-ai-bot/tree/main/src) · AI Discord bot with human-like tools, tasks, and voice  
+- [coolify-tweaks](https://github.com/techwithanirudh/coolify-tweaks) · Theme tweaks reimagining Coolify’s v5 design  
+- [speaking-meeting-bot](https://github.com/Meeting-BaaS/speaking-meeting-bot) · Fully autonomous speaking bots using MeetingBaas API + Pipecat  
+- [transcript-seeker](https://github.com/Meeting-BaaS/transcript-seeker) · Browser-based AI transcript viewer & manager with meeting bot integration  
+- [discourse-ai-bot](https://github.com/techwithanirudh/discourse-ai-bot) · AI bot for Discourse built with Nitro + HeyAPI (OpenAPI gen)  
+- [better-auth-nextjs-starter](https://github.com/techwithanirudh/better-auth-nextjs-starter) · Updated Next.js auth starter inspired by Daveyplate  
+<!--
+- [discord-bot-starter](https://github.com/techwithanirudh/discord-bot-starter) · Type-safe Discord bot starter with Bun + AI SDK  
+- [stylus-theme-starter](https://github.com/techwithanirudh/stylus-theme-starter) · Starter kit for building production-ready themes with Stylus  
+- [discourse-bot-starter](https://github.com/techwithanirudh/discourse-bot-starter) · Minimal starter template for Discourse **Chat** bots  
+-->
+- [fumadocs-starter](https://github.com/techwithanirudh/fumadocs-starter) · Full Fumadocs starter with AI features + built-in plugins  
+- [ai-chatbot](https://github.com/techwithanirudh/ai-chatbot) · Revamped Vercel Chat SDK with improved auth & design
+
+<!--
+- [nextjs-starter](https://github.com/techwithanirudh/nextjs-starter) · My ideal Next.js setup with Biome, Lefthook, CommitLint, Bun, and more  
+- [ai-sdk-nano-banana](https://github.com/techwithanirudh/ai-sdk-nano-banana) · Nano Banana AI SDK starter built on nextjs-starter  
+- [expo-better-auth-starter](https://github.com/techwithanirudh/expo-better-auth-starter) · Fully fleged Expo + Better-Auth starter built with Nativewind
+-->
+
+---
+
+📬 Reach me on:
+- [Twitter](https://twitter.com/Anirudh) (Pretty active!)
+- [LinkedIn](https://linkedin.com/in/techwithanirudh)  
