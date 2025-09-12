@@ -10,7 +10,7 @@
 
 ---
 
-## 🚀 Cool Projects
+## Projects
 
 - [shadcn-portfolio](https://github.com/techwithanirudh/shadcn-portfolio) · Sleek portfolio built with shadcn · ⭐117  
 - [shadcn-saas-landing](https://github.com/techwithanirudh/shadcn-saas-landing) · Customizable SaaS landing template with shadcn  
@@ -36,6 +36,6 @@
 
 ---
 
-📬 Reach me on:
-- [Twitter](https://twitter.com/Anirudh) (Pretty active!)
+Reach me on:
+- [Twitter](https://twitter.com/AnirudhWith) (Pretty active!)
 - [LinkedIn](https://linkedin.com/in/techwithanirudh)  
