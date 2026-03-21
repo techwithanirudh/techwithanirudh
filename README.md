@@ -28,7 +28,6 @@
 -->
 - [fumadocs-starter](https://github.com/techwithanirudh/fumadocs-starter) · Full Fumadocs starter with AI features + built-in plugins · ⭐50+   
 - [ai-chatbot](https://github.com/techwithanirudh/ai-chatbot) · Revamped Vercel Chat SDK with improved auth & design
-- 
 <!--
 - [nextjs-starter](https://github.com/techwithanirudh/nextjs-starter) · My ideal Next.js setup with Biome, Lefthook, CommitLint, Bun, and more  
 - [ai-sdk-nano-banana](https://github.com/techwithanirudh/ai-sdk-nano-banana) · Nano Banana AI SDK starter built on nextjs-starter  
