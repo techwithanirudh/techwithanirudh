@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=dark" alt="skills" />
+  <img src="./profile/skills.svg" alt="Next.js · TypeScript · React · Node.js · Tailwind · Python · Docker · Git" />
 </p>
 
 <details>

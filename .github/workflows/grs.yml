@@ -36,8 +36,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            profile/snake.svg?color_snake=000000&color_dots[0]=ebedf0&color_dots[1]=c8c8c8&color_dots[2]=969696&color_dots[3]=4d4d4d&color_dots[4]=000000
-            profile/snake-dark.svg?color_snake=ffffff&color_dots[0]=161b22&color_dots[1]=383838&color_dots[2]=5a5a5a&color_dots[3]=8b8b8b&color_dots[4]=d4d4d4
+            profile/snake.svg?color_snake=111&color_dots=#eee,#aaa,#888,#666,#444
+            profile/snake-dark.svg?color_snake=eee&color_dots=#161b22,#444,#666,#888,#aaa
 
       - name: Commit cards
         run: |
