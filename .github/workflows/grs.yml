@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate stats card
+      - name: Generate stats card (dark)
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
@@ -23,13 +23,21 @@ jobs:
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate stats card (light)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&bg_color=ffffff&title_color=0d1117&text_color=57606a&icon_color=0d1117&border_color=d0d7de
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            profile/snake.svg
-            profile/snake-dark.svg?palette=github-dark
+            profile/snake.svg?color_snake=0550ae&color_dots[0]=ebedf0&color_dots[1]=cae8ff&color_dots[2]=79c0ff&color_dots[3]=388bfd&color_dots[4]=0550ae
+            profile/snake-dark.svg?color_snake=7dd3fc&color_dots[0]=161b22&color_dots[1]=0d2137&color_dots[2]=1a4480&color_dots[3]=1d6fca&color_dots[4]=58a6ff
 
       - name: Commit cards
         run: |
