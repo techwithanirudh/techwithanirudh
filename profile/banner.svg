@@ -1,0 +1,146 @@
+<svg width="900" height="200" viewBox="0 0 900 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hey, I'm Anirudh — Into Next.js and AI">
+  <title>Hey, I'm Anirudh</title>
+  <defs>
+
+    <!-- Background gradient: dark center glow -->
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%" gradientUnits="userSpaceOnUse" gradientTransform="translate(450,100)">
+      <stop offset="0%"   stop-color="#0d2420"/>
+      <stop offset="100%" stop-color="#0c1014"/>
+    </radialGradient>
+
+    <!-- Animated sweep gradient overlay -->
+    <linearGradient id="sweep" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#0c1014" stop-opacity="1"/>
+      <stop offset="40%"  stop-color="#122e28" stop-opacity="0.6"/>
+      <stop offset="60%"  stop-color="#122e28" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0c1014" stop-opacity="1"/>
+    </linearGradient>
+
+    <!-- Text glow filter -->
+    <filter id="titleGlow" x="-15%" y="-40%" width="130%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle line glow -->
+    <filter id="lineGlow" x="-5%" y="-200%" width="110%" height="500%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Dot grid pattern -->
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="1.1" fill="#2aa889" opacity="0.18"/>
+    </pattern>
+
+    <style>
+      .title {
+        font: 700 46px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;
+        fill: #2aa889;
+        opacity: 0;
+        animation: fadeUp 0.9s cubic-bezier(0.22,1,0.36,1) 0.1s forwards;
+      }
+      .subtitle {
+        font: 400 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;
+        fill: #99d1ce;
+        letter-spacing: 0.04em;
+        opacity: 0;
+        animation: fadeUp 0.9s cubic-bezier(0.22,1,0.36,1) 0.35s forwards;
+      }
+      .url {
+        font: 400 13px 'Segoe UI', Ubuntu, monospace;
+        fill: #38a3a5;
+        opacity: 0;
+        animation: fadeUp 0.9s cubic-bezier(0.22,1,0.36,1) 0.55s forwards;
+      }
+      .bracket {
+        stroke: #2aa889;
+        stroke-width: 2.2;
+        stroke-linecap: round;
+        fill: none;
+        opacity: 0;
+        animation: fadeIn 1s ease 0.6s forwards;
+      }
+      .top-line {
+        stroke: #2aa889;
+        stroke-width: 1.5;
+        stroke-dasharray: 820;
+        stroke-dashoffset: 820;
+        animation: drawLine 1.2s ease 0s forwards;
+      }
+      .bottom-line {
+        stroke: #2aa889;
+        stroke-width: 1.5;
+        stroke-dasharray: 820;
+        stroke-dashoffset: 820;
+        animation: drawLine 1.2s ease 0.2s forwards;
+      }
+      .pulse-dot {
+        fill: #2aa889;
+        animation: pulse 2.4s ease-in-out infinite;
+      }
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(12px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to   { opacity: 0.6; }
+      }
+      @keyframes drawLine {
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes pulse {
+        0%,100% { opacity: 0.4; r: 3; }
+        50%      { opacity: 1;   r: 4.5; }
+      }
+    </style>
+  </defs>
+
+  <!-- Base background -->
+  <rect width="900" height="200" rx="8" fill="url(#bgGlow)"/>
+
+  <!-- Sweep overlay -->
+  <rect width="900" height="200" rx="8" fill="url(#sweep)" opacity="0.7"/>
+
+  <!-- Dot grid -->
+  <rect width="900" height="200" rx="8" fill="url(#dots)"/>
+
+  <!-- Outer border -->
+  <rect x="0.5" y="0.5" width="899" height="199" rx="7.5"
+        stroke="#2aa889" stroke-opacity="0.25" fill="none"/>
+
+  <!-- Top accent line (animated draw) -->
+  <line x1="40" y1="1" x2="860" y2="1" class="top-line" filter="url(#lineGlow)"/>
+
+  <!-- Bottom accent line (animated draw) -->
+  <line x1="40" y1="199" x2="860" y2="199" class="bottom-line" filter="url(#lineGlow)"/>
+
+  <!-- Left bracket decoration -->
+  <path d="M38 62 L20 62 L20 138 L38 138" class="bracket"/>
+
+  <!-- Right bracket decoration -->
+  <path d="M862 62 L880 62 L880 138 L862 138" class="bracket"/>
+
+  <!-- Pulsing accent dots at bracket corners -->
+  <circle cx="20" cy="62"  r="3" class="pulse-dot" style="animation-delay:0s"/>
+  <circle cx="20" cy="138" r="3" class="pulse-dot" style="animation-delay:0.6s"/>
+  <circle cx="880" cy="62"  r="3" class="pulse-dot" style="animation-delay:0.3s"/>
+  <circle cx="880" cy="138" r="3" class="pulse-dot" style="animation-delay:0.9s"/>
+
+  <!-- Main title -->
+  <text x="450" y="98" text-anchor="middle" class="title" filter="url(#titleGlow)">Hey, I&#39;m Anirudh</text>
+
+  <!-- Subtitle -->
+  <text x="450" y="132" text-anchor="middle" class="subtitle">Into Next.js and AI</text>
+
+  <!-- Website URL -->
+  <text x="450" y="160" text-anchor="middle" class="url">techwithanirudh.com</text>
+
+</svg>

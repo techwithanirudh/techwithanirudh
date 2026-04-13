@@ -1,8 +1,12 @@
-# 👋 Hey, I'm Anirudh
+<p align="center">
+  <img src="./profile/banner.svg" alt="Hey, I'm Anirudh" width="100%" />
+</p>
 
-👀 Into Next.js and AI 
-
-🌐 [techwithanirudh.com](https://www.techwithanirudh.com)  
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=dark" alt="skills" />
+  </a>
+</p>
 
 <p align="center">
   <img height="180em" src="./profile/stats.svg" alt="techwithanirudh stats" />
