@@ -20,7 +20,7 @@ jobs:
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff&border_color=30363d
-          path: profile/stats.svg
+          path: stats/dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate stats card (light)
@@ -28,7 +28,7 @@ jobs:
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&bg_color=ffffff&title_color=0d1117&text_color=57606a&icon_color=0d1117&border_color=d0d7de
-          path: profile/stats-light.svg
+          path: stats/light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate contribution snake
@@ -36,13 +36,13 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            profile/snake.svg?color_snake=111&color_dots=#eee,#aaa,#888,#666,#444
-            profile/snake-dark.svg?color_snake=eee&color_dots=#161b22,#444,#666,#888,#aaa
+            snake/light.svg?color_snake=111&color_dots=#eee,#aaa,#888,#666,#444
+            snake/dark.svg?color_snake=eee&color_dots=#161b22,#444,#666,#888,#aaa
 
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
+          git add banner.svg stats/*.svg snake/*.svg
           git commit -m "chore(readme): update README cards" || exit 0
           git push
