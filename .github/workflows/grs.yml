@@ -42,6 +42,44 @@ jobs:
             .github/assets/snake/light.svg?palette=github-light
             .github/assets/snake/dark.svg?palette=github-dark
 
+      - name: Add borders to snake SVGs
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const fs = require('fs');
+
+            function addBorderToSvg(filePath, strokeColor) {
+              const svgContent = fs.readFileSync(filePath, 'utf-8');
+              
+              const viewBoxMatch = svgContent.match(/viewBox="([^"]*)"/)
+              if (!viewBoxMatch) return;
+              
+              const [minX, minY, width, height] = viewBoxMatch[1].split(' ').map(Number);
+              const bottomPadding = 24;
+              const paddedHeight = height + bottomPadding;
+              const paddedViewBox = `${minX} ${minY} ${width} ${paddedHeight}`;
+
+              const svgBorder = `<rect
+                x="${minX + 0.5}"
+                y="${minY + 0.5}"
+                width="${width - 1}"
+                height="${paddedHeight - 1}"
+                rx="6"
+                stroke="${strokeColor}"
+                stroke-width="1"
+                fill="none"
+              />`;
+              
+              const svgWithBorder = svgContent
+                .replace(/viewBox="[^"]*"/, `viewBox="${paddedViewBox}"`)
+                .replace(/<svg([^>]*?)height="[^"]*"/, `<svg$1height="${paddedHeight}"`)
+                .replace('</svg>', svgBorder + '</svg>');
+              fs.writeFileSync(filePath, svgWithBorder);
+            }
+            
+            addBorderToSvg('.github/assets/snake/light.svg', '#d0d7de');
+            addBorderToSvg('.github/assets/snake/dark.svg', '#30363d');
+
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"

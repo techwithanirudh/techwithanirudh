@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
+  <a href="https://techwithanirudh.com">website</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="https://twitter.com/AnirudhWith">twitter</a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="https://linkedin.com/in/anirudhsriramb">linkedin</a>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="https://techwithanirudh.com">website</a>
 </p>
 
 <details>
