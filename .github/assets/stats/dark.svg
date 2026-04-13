@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Anirudh's GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 683, Total Commits  (last year) : 2166, Total PRs: 470, Total Issues: 41, Contributed to (last year): 12</desc>
+        <desc id="descId">Total Stars Earned: 683, Total Commits  (last year) : 2174, Total PRs: 471, Total Issues: 41, Contributed to (last year): 12</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 15.816068266705408;
+        stroke-dashoffset: 15.812522528313425;
       }
     }
   
@@ -109,7 +109,7 @@
           y="0.5"
           rx="4.5"
           height="99%"
-          stroke="#25282e"
+          stroke="#30363d"
           width="466"
           fill="#00000000"
           stroke-opacity="1"
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >470</text>
+      >471</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
