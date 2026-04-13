@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" alt="Hey, I'm Anirudh" width="100%" />
+  <img src="./.github/assets/banner.svg" alt="Hey, I'm Anirudh" width="100%" />
 </p>
 
 <p align="center">
@@ -10,9 +10,9 @@
   <summary>GitHub Stats ⚡</summary>
   <p>
     <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="./stats/dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="./stats/light.svg" />
-      <img src="./stats/dark.svg" alt="techwithanirudh's GitHub stats" />
+      <source media="(prefers-color-scheme: dark)"  srcset="./.github/assets/stats/dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./.github/assets/stats/light.svg" />
+      <img src="./.github/assets/stats/dark.svg" alt="techwithanirudh's GitHub stats" />
     </picture>
   </p>
 </details>
@@ -56,7 +56,7 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="./snake/dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./snake/light.svg" />
-  <img alt="contribution snake" src="./snake/dark.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)"  srcset="./.github/assets/snake/dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/snake/light.svg" />
+  <img alt="contribution snake" src="./.github/assets/snake/dark.svg" width="100%" />
 </picture>
