@@ -8,8 +8,7 @@
 
 <details>
   <summary>GitHub Stats ⚡</summary>
-  <br/>
-  <img src="./profile/stats.svg" alt="techwithanirudh's GitHub stats" />
+  <p><img src="./profile/stats.svg" alt="techwithanirudh's GitHub stats" /></p>
 </details>
 
 ---
