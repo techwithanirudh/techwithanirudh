@@ -53,7 +53,7 @@
 
 ---
 
-<picture>
+<picture style="margin: -15px;">
   <source media="(prefers-color-scheme: dark)"  srcset="./.github/assets/snake/dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./.github/assets/snake/light.svg" />
   <img alt="contribution snake" src="./.github/assets/snake/dark.svg" width="100%" />
