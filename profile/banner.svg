@@ -157,7 +157,7 @@
   <circle cx="880" cy="138" r="3" class="pulse-dot" style="animation-delay:0.9s"/>
 
   <!-- Title (dark: glow filter, light: no glow needed) -->
-  <text x="450" y="96"  text-anchor="middle" class="title"    filter="url(#titleGlow)">Hey, I&#39;m Anirudh</text>
+  <text x="450" y="96"  text-anchor="middle" class="title">Hey, I&#39;m Anirudh</text>
   <text x="450" y="130" text-anchor="middle" class="subtitle">Into Next.js and AI</text>
   <text x="450" y="158" text-anchor="middle" class="url"      >techwithanirudh.com</text>
 

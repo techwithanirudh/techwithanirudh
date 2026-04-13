@@ -5,11 +5,12 @@
 <br/>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=light" />
-    <img src="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=dark" alt="skills" />
-  </picture>
+  <img src="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=dark" alt="skills" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.lanyard.rest%2Fv1%2Fusers%2F1102203547816308757&query=%24.data.discord_status&label=discord&logo=discord&logoColor=white&color=5865F2&style=flat-square" alt="discord status" />
+  <img src="https://komarev.com/ghpvc/?username=techwithanirudh&style=flat-square&color=2aa889&label=profile+views" alt="profile views" />
 </p>
 
 ---
@@ -40,9 +41,15 @@
 
 ---
 
-Reach me on:
-- [Twitter](https://twitter.com/AnirudhWith) (Pretty active!)
-- [LinkedIn](https://linkedin.com/in/anirudhsriramb)
+<p align="center">
+  <a href="https://twitter.com/AnirudhWith">
+    <img src="https://img.shields.io/badge/@AnirudhWith-000000?style=flat-square&logo=x&logoColor=white" alt="Twitter" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/anirudhsriramb">
+    <img src="https://img.shields.io/badge/anirudhsriramb-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
 
 <p align="center">
   <picture>
