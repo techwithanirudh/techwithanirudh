@@ -2,38 +2,24 @@
   <title>Hey, I'm Anirudh</title>
   <defs>
 
-    <!-- Dark bg gradient -->
     <radialGradient id="bgDark" cx="50%" cy="50%" r="60%" gradientUnits="userSpaceOnUse" gradientTransform="translate(450,100)">
-      <stop offset="0%"   stop-color="#0d2420"/>
-      <stop offset="100%" stop-color="#0c1014"/>
+      <stop offset="0%"   stop-color="#0a1929"/>
+      <stop offset="100%" stop-color="#0d1117"/>
     </radialGradient>
 
-    <!-- Light bg gradient -->
     <radialGradient id="bgLight" cx="50%" cy="50%" r="60%" gradientUnits="userSpaceOnUse" gradientTransform="translate(450,100)">
-      <stop offset="0%"   stop-color="#e8faf5"/>
-      <stop offset="100%" stop-color="#f5fffe"/>
+      <stop offset="0%"   stop-color="#cae8ff"/>
+      <stop offset="100%" stop-color="#ddf4ff"/>
     </radialGradient>
 
-    <!-- Dark dot pattern -->
     <pattern id="dotsDark" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="12" cy="12" r="1.1" fill="#2aa889" opacity="0.18"/>
+      <circle cx="12" cy="12" r="1.1" fill="#388bfd" opacity="0.2"/>
     </pattern>
 
-    <!-- Light dot pattern -->
     <pattern id="dotsLight" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="12" cy="12" r="1.1" fill="#2aa889" opacity="0.12"/>
+      <circle cx="12" cy="12" r="1.1" fill="#0969da" opacity="0.15"/>
     </pattern>
 
-    <!-- Text glow (dark mode only) -->
-    <filter id="titleGlow" x="-15%" y="-40%" width="130%" height="180%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Line glow -->
     <filter id="lineGlow" x="-5%" y="-200%" width="110%" height="500%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
       <feMerge>
@@ -43,33 +29,29 @@
     </filter>
 
     <style>
-      /* ── Dark mode (default) ── */
       .bg-dark  { display: block; }
       .bg-light { display: none; }
 
-      .title    { font: 700 46px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #2aa889; }
-      .subtitle { font: 400 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #99d1ce; letter-spacing: 0.04em; }
-      .url      { font: 400 13px 'Segoe UI', Ubuntu, monospace; fill: #38a3a5; }
-      .bracket  { stroke: #2aa889; }
-      .accent   { stroke: #2aa889; }
-      .border   { stroke: #2aa889; stroke-opacity: 0.25; }
-      .pulse-dot { fill: #2aa889; }
+      .title    { font: 700 46px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #58a6ff; }
+      .subtitle { font: 400 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #cae8ff; letter-spacing: 0.04em; }
+      .url      { font: 400 13px 'Segoe UI', Ubuntu, monospace; fill: #388bfd; }
+      .bracket  { stroke: #388bfd; }
+      .accent   { stroke: #388bfd; }
+      .border   { stroke: #388bfd; stroke-opacity: 0.3; }
+      .pulse-dot { fill: #388bfd; }
 
-      /* ── Light mode ── */
       @media (prefers-color-scheme: light) {
         .bg-dark  { display: none; }
         .bg-light { display: block; }
-
-        .title    { fill: #0f5e4a; }
-        .subtitle { fill: #2a7a68; }
-        .url      { fill: #2a9177; }
-        .bracket  { stroke: #2aa889; }
-        .accent   { stroke: #2aa889; }
-        .border   { stroke: #2aa889; stroke-opacity: 0.4; }
-        .pulse-dot { fill: #2aa889; }
+        .title    { fill: #0550ae; }
+        .subtitle { fill: #0969da; }
+        .url      { fill: #218bff; }
+        .bracket  { stroke: #0969da; }
+        .accent   { stroke: #0969da; }
+        .border   { stroke: #0969da; stroke-opacity: 0.4; }
+        .pulse-dot { fill: #0969da; }
       }
 
-      /* ── Animations ── */
       .title {
         opacity: 0;
         animation: fadeUp 0.9s cubic-bezier(0.22,1,0.36,1) 0.1s forwards;
@@ -101,9 +83,7 @@
         stroke-dashoffset: 820;
         animation: drawLine 1.2s ease 0.2s forwards;
       }
-      .pulse-dot {
-        animation: pulse 2.4s ease-in-out infinite;
-      }
+      .pulse-dot { animation: pulse 2.4s ease-in-out infinite; }
 
       @keyframes fadeUp {
         from { opacity: 0; transform: translateY(12px); }
@@ -113,9 +93,7 @@
         from { opacity: 0; }
         to   { opacity: 0.65; }
       }
-      @keyframes drawLine {
-        to { stroke-dashoffset: 0; }
-      }
+      @keyframes drawLine { to { stroke-dashoffset: 0; } }
       @keyframes pulse {
         0%,100% { opacity: 0.4; r: 3; }
         50%      { opacity: 1;   r: 4.5; }
@@ -123,42 +101,29 @@
     </style>
   </defs>
 
-  <!-- Dark background -->
   <g class="bg-dark">
     <rect width="900" height="200" rx="8" fill="url(#bgDark)"/>
     <rect width="900" height="200" rx="8" fill="url(#dotsDark)"/>
   </g>
-
-  <!-- Light background -->
   <g class="bg-light">
     <rect width="900" height="200" rx="8" fill="url(#bgLight)"/>
     <rect width="900" height="200" rx="8" fill="url(#dotsLight)"/>
   </g>
 
-  <!-- Outer border -->
   <rect x="0.5" y="0.5" width="899" height="199" rx="7.5" fill="none" class="border"/>
 
-  <!-- Animated top line -->
-  <line x1="40" y1="1" x2="860" y2="1" class="accent top-line" filter="url(#lineGlow)"/>
-
-  <!-- Animated bottom line -->
+  <line x1="40" y1="1"   x2="860" y2="1"   class="accent top-line"    filter="url(#lineGlow)"/>
   <line x1="40" y1="199" x2="860" y2="199" class="accent bottom-line" filter="url(#lineGlow)"/>
 
-  <!-- Left bracket -->
-  <path d="M38 62 L20 62 L20 138 L38 138" class="bracket"/>
-
-  <!-- Right bracket -->
+  <path d="M38 62 L20 62 L20 138 L38 138"   class="bracket"/>
   <path d="M862 62 L880 62 L880 138 L862 138" class="bracket"/>
 
-  <!-- Pulsing corner dots -->
   <circle cx="20"  cy="62"  r="3" class="pulse-dot" style="animation-delay:0s"/>
   <circle cx="20"  cy="138" r="3" class="pulse-dot" style="animation-delay:0.6s"/>
   <circle cx="880" cy="62"  r="3" class="pulse-dot" style="animation-delay:0.3s"/>
   <circle cx="880" cy="138" r="3" class="pulse-dot" style="animation-delay:0.9s"/>
 
-  <!-- Title (dark: glow filter, light: no glow needed) -->
   <text x="450" y="96"  text-anchor="middle" class="title">Hey, I&#39;m Anirudh</text>
   <text x="450" y="130" text-anchor="middle" class="subtitle">Into Next.js and AI</text>
-  <text x="450" y="158" text-anchor="middle" class="url"      >techwithanirudh.com</text>
-
+  <text x="450" y="158" text-anchor="middle" class="url">techwithanirudh.com</text>
 </svg>
