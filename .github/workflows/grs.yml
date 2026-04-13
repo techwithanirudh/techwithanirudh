@@ -50,8 +50,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            .github/assets/snake/light.svg?color_snake=#111111&color_dots=#eeeeee,#cccccc,#aaaaaa,#888888,#666666
-            .github/assets/snake/dark.svg?color_snake=#ffffff&color_dots=#161b22,#444444,#777777,#aaaaaa,#dddddd
+            .github/assets/snake/light.svg?palette=github-light
+            .github/assets/snake/dark.svg?palette=github-dark
 
       - name: Commit cards
         run: |
