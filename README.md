@@ -3,11 +3,6 @@
 </p>
 
 <p align="center">
-  <strong>I'm Anirudh</strong> — developer into Next.js and AI, building random projects in my free time.<br/>
-  Check out <a href="https://techwithanirudh.com">techwithanirudh.com</a>.
-</p>
-
-<p align="center">
   <img src="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=dark" alt="skills" />
 </p>
 
