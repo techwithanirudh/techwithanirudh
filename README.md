@@ -2,20 +2,27 @@
   <img src="./profile/banner.svg" alt="Hey, I'm Anirudh" width="100%" />
 </p>
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=dark" alt="skills" />
-  </a>
-</p>
-
-<p align="center">
-  <img height="180em" src="./profile/stats.svg" alt="techwithanirudh stats" />
-  <img height="180em" src="./profile/top-langs.svg" alt="top languages" />
-</p>
+<br/>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)"  srcset="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=light" />
+    <img src="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=dark" alt="skills" />
+  </picture>
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="./profile/stats.svg" alt="techwithanirudh's GitHub stats" />
+</p>
+
+<br/>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="./profile/snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./profile/snake.svg" />
     <img alt="contribution snake" src="./profile/snake-dark.svg" />
   </picture>
