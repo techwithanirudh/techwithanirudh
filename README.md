@@ -5,7 +5,7 @@
 🌐 [techwithanirudh.com](https://www.techwithanirudh.com)  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=techwithanirudh&show_icons=true&theme=gotham" alt="techwithanirudh stats" />
+  <img src="./profile/stats.svg" alt="techwithanirudh stats" />
 </p>
 
 ---
