@@ -42,6 +42,47 @@ jobs:
             .github/assets/snake/light.svg?palette=github-light
             .github/assets/snake/dark.svg?palette=github-dark
 
+      - name: Add borders to snake SVGs
+        run: |
+          import os
+          import re
+
+          def add_border_to_svg(file_path, stroke_color):
+            with open(file_path, 'r') as f:
+              svg_content = f.read()
+            
+            # Extract viewBox values
+            match = re.search(r'viewBox="([^"]*)"', svg_content)
+            if not match:
+              return
+            
+            vb = match.group(1)
+            values = [float(x) for x in vb.strip().split()]
+            min_x, min_y, width, height = values
+            
+            # Generate border rect
+            stroke_width = 2
+            svg_border = f'''<rect
+              x="{min_x + stroke_width / 2}"
+              y="{min_y + stroke_width / 2}"
+              width="{width - stroke_width}"
+              height="{height - stroke_width}"
+              rx="6"
+              stroke="{stroke_color}"
+              stroke-width="{stroke_width}"
+              fill="none"
+            />'''
+            
+            # Append border before closing svg tag
+            svg_with_border = svg_content.replace("</svg>", svg_border + "</svg>")
+            
+            with open(file_path, 'w') as f:
+              f.write(svg_with_border)
+          
+          add_border_to_svg('.github/assets/snake/light.svg', '#d0d7de')
+          add_border_to_svg('.github/assets/snake/dark.svg', '#30363d')
+        shell: python
+
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
