@@ -8,10 +8,6 @@
   <img src="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=dark" alt="skills" />
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=techwithanirudh&style=flat-square&color=388bfd&label=profile+views" alt="profile views" />
-</p>
-
 ---
 
 ## Projects
@@ -37,6 +33,12 @@
 | [ai-sdk-nano-banana](https://github.com/techwithanirudh/ai-sdk-nano-banana) | Nano Banana AI SDK starter built on nextjs-starter |
 | [expo-better-auth-starter](https://github.com/techwithanirudh/expo-better-auth-starter) | Fully fledged Expo + Better-Auth starter built with Nativewind |
 -->
+
+<details>
+  <summary>GitHub Stats ⚡</summary>
+  <br/>
+  <img src="./profile/stats.svg" alt="techwithanirudh's GitHub stats" />
+</details>
 
 ---
 
