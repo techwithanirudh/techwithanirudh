@@ -55,7 +55,7 @@ jobs:
               if (!viewBoxMatch) return;
               
               const [minX, minY, width, height] = viewBoxMatch[1].split(' ').map(Number);
-              const bottomPadding = 20;
+              const bottomPadding = 24;
               const paddedHeight = height + bottomPadding;
               const paddedViewBox = `${minX} ${minY} ${width} ${paddedHeight}`;
 
