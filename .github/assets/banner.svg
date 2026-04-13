@@ -31,11 +31,11 @@
       @media (prefers-color-scheme: light) {
         .bg-dark  { display: none; }
         .bg-light { display: block; }
-        .title    { fill: #000000; }
-        .subtitle { fill: #000000; opacity: 0.45; }
-        .url      { fill: #000000; opacity: 0.28; }
-        .accent   { stroke: #000000; stroke-opacity: 0.15; }
-        .border   { stroke: #000000; stroke-opacity: 0.08; }
+        .title    { fill: #24292f; }
+        .subtitle { fill: #57606a; opacity: 1; }
+        .url      { fill: #6e7781; opacity: 1; }
+        .accent   { stroke: #d0d7de; stroke-opacity: 1; }
+        .border   { stroke: #d0d7de; stroke-opacity: 1; }
       }
 
       .title {
@@ -76,7 +76,7 @@
     <rect width="900" height="200" rx="8" fill="url(#dotsDark)"/>
   </g>
   <g class="bg-light">
-    <rect width="900" height="200" rx="8" fill="#ffffff"/>
+    <rect width="900" height="200" rx="8" fill="#f6f8fa"/>
     <rect width="900" height="200" rx="8" fill="url(#dotsLight)"/>
   </g>
 
