@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="./.github/assets/banner.svg" alt="Hey, I'm Anirudh" width="100%" />
+  <a href="https://techwithanirudh.com">
+    <img src="./.github/assets/banner.svg" alt="Hey, I'm Anirudh" width="100%" />
+  </a>
 </p>
 
 <p align="center">
