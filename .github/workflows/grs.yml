@@ -55,19 +55,24 @@ jobs:
               if (!viewBoxMatch) return;
               
               const [minX, minY, width, height] = viewBoxMatch[1].split(' ').map(Number);
+              const bottomPadding = 12;
+              const paddedHeight = height + bottomPadding;
+              const paddedViewBox = `${minX} ${minY} ${width} ${paddedHeight}`;
 
               const svgBorder = `<rect
                 x="${minX + 0.5}"
                 y="${minY + 0.5}"
                 width="${width - 1}"
-                height="${height - 1}"
+                height="${paddedHeight - 1}"
                 rx="6"
                 stroke="${strokeColor}"
                 stroke-width="1"
                 fill="none"
               />`;
               
-              const svgWithBorder = svgContent.replace('</svg>', svgBorder + '</svg>');
+              const svgWithBorder = svgContent
+                .replace(/viewBox="[^"]*"/, `viewBox="${paddedViewBox}"`)
+                .replace('</svg>', svgBorder + '</svg>');
               fs.writeFileSync(filePath, svgWithBorder);
             }
             
