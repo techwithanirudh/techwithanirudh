@@ -3,21 +3,21 @@
   <defs>
 
     <radialGradient id="bgDark" cx="50%" cy="50%" r="60%" gradientUnits="userSpaceOnUse" gradientTransform="translate(450,100)">
-      <stop offset="0%"   stop-color="#0a1929"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+      <stop offset="0%"   stop-color="#0d2420"/>
+      <stop offset="100%" stop-color="#0c1014"/>
     </radialGradient>
 
     <radialGradient id="bgLight" cx="50%" cy="50%" r="60%" gradientUnits="userSpaceOnUse" gradientTransform="translate(450,100)">
-      <stop offset="0%"   stop-color="#cae8ff"/>
-      <stop offset="100%" stop-color="#ddf4ff"/>
+      <stop offset="0%"   stop-color="#ccfbf1"/>
+      <stop offset="100%" stop-color="#f0fdf4"/>
     </radialGradient>
 
     <pattern id="dotsDark" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="12" cy="12" r="1.1" fill="#388bfd" opacity="0.2"/>
+      <circle cx="12" cy="12" r="1.1" fill="#2dd4bf" opacity="0.18"/>
     </pattern>
 
     <pattern id="dotsLight" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="12" cy="12" r="1.1" fill="#0969da" opacity="0.15"/>
+      <circle cx="12" cy="12" r="1.1" fill="#0d9488" opacity="0.13"/>
     </pattern>
 
     <filter id="lineGlow" x="-5%" y="-200%" width="110%" height="500%">
@@ -32,24 +32,24 @@
       .bg-dark  { display: block; }
       .bg-light { display: none; }
 
-      .title    { font: 700 46px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #58a6ff; }
-      .subtitle { font: 400 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #cae8ff; letter-spacing: 0.04em; }
-      .url      { font: 400 13px 'Segoe UI', Ubuntu, monospace; fill: #388bfd; }
-      .bracket  { stroke: #388bfd; }
-      .accent   { stroke: #388bfd; }
-      .border   { stroke: #388bfd; stroke-opacity: 0.3; }
-      .pulse-dot { fill: #388bfd; }
+      .title    { font: 700 46px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #2dd4bf; }
+      .subtitle { font: 400 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #99f6e4; letter-spacing: 0.04em; }
+      .url      { font: 400 13px 'Segoe UI', Ubuntu, monospace; fill: #5eead4; }
+      .bracket  { stroke: #2dd4bf; }
+      .accent   { stroke: #2dd4bf; }
+      .border   { stroke: #2dd4bf; stroke-opacity: 0.3; }
+      .pulse-dot { fill: #2dd4bf; }
 
       @media (prefers-color-scheme: light) {
         .bg-dark  { display: none; }
         .bg-light { display: block; }
-        .title    { fill: #0550ae; }
-        .subtitle { fill: #0969da; }
-        .url      { fill: #218bff; }
-        .bracket  { stroke: #0969da; }
-        .accent   { stroke: #0969da; }
-        .border   { stroke: #0969da; stroke-opacity: 0.4; }
-        .pulse-dot { fill: #0969da; }
+        .title    { fill: #0f766e; }
+        .subtitle { fill: #0d9488; }
+        .url      { fill: #14b8a6; }
+        .bracket  { stroke: #0d9488; }
+        .accent   { stroke: #0d9488; }
+        .border   { stroke: #0d9488; stroke-opacity: 0.4; }
+        .pulse-dot { fill: #0d9488; }
       }
 
       .title {
