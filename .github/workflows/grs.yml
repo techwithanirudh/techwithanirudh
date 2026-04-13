@@ -19,8 +19,8 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=gotham
-          path: profile/stats.svg
+          options: username=${{ github.repository_owner }}&show_icons=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff&border_color=30363d
+          path: .github/assets/stats/dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate stats card (light)
@@ -28,7 +28,7 @@ jobs:
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&bg_color=ffffff&title_color=0d1117&text_color=57606a&icon_color=0d1117&border_color=d0d7de
-          path: profile/stats-light.svg
+          path: .github/assets/stats/light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate contribution snake
@@ -36,13 +36,13 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            profile/snake.svg?color_snake=0550ae&color_dots[0]=ebedf0&color_dots[1]=cae8ff&color_dots[2]=79c0ff&color_dots[3]=388bfd&color_dots[4]=0550ae
-            profile/snake-dark.svg?color_snake=7dd3fc&color_dots[0]=161b22&color_dots[1]=0d2137&color_dots[2]=1a4480&color_dots[3]=1d6fca&color_dots[4]=58a6ff
+            .github/assets/snake/light.svg?color_snake=111&color_dots=#eee,#aaa,#888,#666,#444
+            .github/assets/snake/dark.svg?color_snake=e6edf3&color_dots=#161b22,#374151,#6b7280,#9ca3af,#d1d5db
 
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
+          git add .github/assets/
           git commit -m "chore(readme): update README cards" || exit 0
           git push
