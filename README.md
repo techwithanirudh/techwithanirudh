@@ -6,6 +6,14 @@
   <img src="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=dark" alt="skills" />
 </p>
 
+<p align="center">
+  <a href="https://twitter.com/AnirudhWith">twitter</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/anirudhsriramb">linkedin</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://techwithanirudh.com">website</a>
+</p>
+
 <details>
   <summary>GitHub Stats ⚡</summary>
   <p>
@@ -44,16 +52,6 @@
 -->
 
 ---
-
-<p align="center">
-  <a href="https://twitter.com/AnirudhWith">
-    <img src="https://img.shields.io/badge/@AnirudhWith-000000?style=flat-square&logo=x&logoColor=white" alt="Twitter" />
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/anirudhsriramb">
-    <img src="https://img.shields.io/badge/anirudhsriramb-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="./.github/assets/snake/dark.svg" />
