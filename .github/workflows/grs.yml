@@ -19,7 +19,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=gotham
+          options: username=${{ github.repository_owner }}&show_icons=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff&border_color=30363d
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -36,8 +36,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            profile/snake.svg?color_snake=0550ae&color_dots[0]=ebedf0&color_dots[1]=cae8ff&color_dots[2]=79c0ff&color_dots[3]=388bfd&color_dots[4]=0550ae
-            profile/snake-dark.svg?color_snake=7dd3fc&color_dots[0]=161b22&color_dots[1]=0d2137&color_dots[2]=1a4480&color_dots[3]=1d6fca&color_dots[4]=58a6ff
+            profile/snake.svg?color_snake=000000&color_dots[0]=ebedf0&color_dots[1]=c8c8c8&color_dots[2]=969696&color_dots[3]=4d4d4d&color_dots[4]=000000
+            profile/snake-dark.svg?color_snake=ffffff&color_dots[0]=161b22&color_dots[1]=383838&color_dots[2]=5a5a5a&color_dots[3]=8b8b8b&color_dots[4]=d4d4d4
 
       - name: Commit cards
         run: |
