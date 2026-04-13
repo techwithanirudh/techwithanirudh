@@ -12,26 +12,6 @@
   </picture>
 </p>
 
-<br/>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="./profile/stats.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg" />
-    <img src="./profile/stats.svg" alt="techwithanirudh's GitHub stats" />
-  </picture>
-</p>
-
-<br/>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="./profile/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile/snake.svg" />
-    <img alt="contribution snake" src="./profile/snake-dark.svg" />
-  </picture>
-</p>
-
 ---
 
 ## Projects
@@ -62,4 +42,12 @@
 
 Reach me on:
 - [Twitter](https://twitter.com/AnirudhWith) (Pretty active!)
-- [LinkedIn](https://linkedin.com/in/anirudhsriramb)  
+- [LinkedIn](https://linkedin.com/in/anirudhsriramb)
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="./profile/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/snake.svg" />
+    <img alt="contribution snake" src="./profile/snake-dark.svg" />
+  </picture>
+</p>
