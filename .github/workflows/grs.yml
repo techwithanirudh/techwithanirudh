@@ -55,7 +55,7 @@ jobs:
               if (!viewBoxMatch) return;
               
               const [minX, minY, width, height] = viewBoxMatch[1].split(' ').map(Number);
-              const bottomPadding = 12;
+              const bottomPadding = 20;
               const paddedHeight = height + bottomPadding;
               const paddedViewBox = `${minX} ${minY} ${width} ${paddedHeight}`;
 
@@ -72,6 +72,7 @@ jobs:
               
               const svgWithBorder = svgContent
                 .replace(/viewBox="[^"]*"/, `viewBox="${paddedViewBox}"`)
+                .replace(/<svg([^>]*?)height="[^"]*"/, `<svg$1height="${paddedHeight}"`)
                 .replace('</svg>', svgBorder + '</svg>');
               fs.writeFileSync(filePath, svgWithBorder);
             }
