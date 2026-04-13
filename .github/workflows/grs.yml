@@ -1,6 +1,9 @@
 name: Update README cards
 
 on:
+  push:
+    paths-ignore:
+      - .github/assets/**
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
