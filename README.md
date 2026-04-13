@@ -1,17 +1,32 @@
-# 👋 Hey, I'm Anirudh
-
-👀 Into Next.js and AI 
-
-🌐 [techwithanirudh.com](https://www.techwithanirudh.com)  
-
 <p align="center">
-  <img height="180em" src="./profile/stats.svg" alt="techwithanirudh stats" />
-  <img height="180em" src="./profile/top-langs.svg" alt="top languages" />
+  <img src="./profile/banner.svg" alt="Hey, I'm Anirudh" width="100%" />
 </p>
+
+<br/>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)"  srcset="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=light" />
+    <img src="https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,tailwindcss,python,docker,git&theme=dark" alt="skills" />
+  </picture>
+</p>
+
+<br/>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="./profile/stats.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg" />
+    <img src="./profile/stats.svg" alt="techwithanirudh's GitHub stats" />
+  </picture>
+</p>
+
+<br/>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="./profile/snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./profile/snake.svg" />
     <img alt="contribution snake" src="./profile/snake-dark.svg" />
   </picture>
