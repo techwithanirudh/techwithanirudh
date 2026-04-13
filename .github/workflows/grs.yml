@@ -1,6 +1,9 @@
 name: Update README cards
 
 on:
+  push:
+    paths-ignore:
+      - .github/assets/**
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
@@ -19,7 +22,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&bg_color=00000000&title_color=ffffff&text_color=8b949e&icon_color=ffffff&border_color=30363d
+          options: username=${{ github.repository_owner }}&show_icons=true&bg_color=00000000&title_color=ffffff&text_color=ffffff&icon_color=8b949e&border_color=30363d
           path: .github/assets/stats/dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -27,7 +30,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&bg_color=00000000&title_color=0d1117&text_color=57606a&icon_color=0d1117&border_color=d0d7de
+          options: username=${{ github.repository_owner }}&show_icons=true&bg_color=00000000&title_color=0d1117&text_color=0d1117&icon_color=57606a&border_color=d0d7de
           path: .github/assets/stats/light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
