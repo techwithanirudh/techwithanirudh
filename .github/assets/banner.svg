@@ -23,7 +23,7 @@
       .bg-light { display: none; }
 
       .title    { font: 700 46px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #ffffff; }
-      .subtitle { font: 400 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #ffffff; opacity: 0.45; letter-spacing: 0.04em; }
+      .subtitle { font: 400 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #ffffff; opacity: 0.35; letter-spacing: 0.04em; }
       .url      { font: 400 13px 'Segoe UI', Ubuntu, monospace; fill: #ffffff; opacity: 0.28; }
       .accent   { stroke: #ffffff; stroke-opacity: 0.2; }
       .border   { stroke: #ffffff; stroke-opacity: 0.1; }
@@ -87,5 +87,5 @@
 
   <text x="450" y="96"  text-anchor="middle" class="title">Hey, I&#39;m Anirudh</text>
   <text x="450" y="130" text-anchor="middle" class="subtitle">Into Next.js and AI</text>
-  <text x="450" y="158" text-anchor="middle" class="url">techwithanirudh.com</text>
+
 </svg>
