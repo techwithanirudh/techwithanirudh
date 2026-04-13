@@ -47,25 +47,23 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const path = require('path');
 
             function addBorderToSvg(filePath, strokeColor) {
-              let svgContent = fs.readFileSync(filePath, 'utf-8');
+              const svgContent = fs.readFileSync(filePath, 'utf-8');
               
               const viewBoxMatch = svgContent.match(/viewBox="([^"]*)"/)
               if (!viewBoxMatch) return;
               
               const [minX, minY, width, height] = viewBoxMatch[1].split(' ').map(Number);
-              
-              const strokeWidth = 2;
+
               const svgBorder = `<rect
-                x="${minX + strokeWidth / 2}"
-                y="${minY + strokeWidth / 2}"
-                width="${width - strokeWidth}"
-                height="${height - strokeWidth}"
+                x="${minX + 0.5}"
+                y="${minY + 0.5}"
+                width="${width - 1}"
+                height="${height - 1}"
                 rx="6"
                 stroke="${strokeColor}"
-                stroke-width="${strokeWidth}"
+                stroke-width="1"
                 fill="none"
               />`;
               
