@@ -2,22 +2,12 @@
   <title>Hey, I'm Anirudh</title>
   <defs>
 
-    <radialGradient id="bgDark" cx="50%" cy="50%" r="55%" gradientUnits="userSpaceOnUse" gradientTransform="translate(450,100)">
-      <stop offset="0%"   stop-color="#0f1c2e" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="1"/>
-    </radialGradient>
-
-    <radialGradient id="bgLight" cx="50%" cy="50%" r="55%" gradientUnits="userSpaceOnUse" gradientTransform="translate(450,100)">
-      <stop offset="0%"   stop-color="#e8f4ff"/>
-      <stop offset="100%" stop-color="#f8fbff"/>
-    </radialGradient>
-
     <pattern id="dotsDark" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="12" cy="12" r="1" fill="#7dd3fc" opacity="0.07"/>
+      <circle cx="12" cy="12" r="1" fill="#ffffff" opacity="0.06"/>
     </pattern>
 
     <pattern id="dotsLight" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="12" cy="12" r="1" fill="#3b82f6" opacity="0.08"/>
+      <circle cx="12" cy="12" r="1" fill="#000000" opacity="0.06"/>
     </pattern>
 
     <filter id="lineGlow" x="-5%" y="-200%" width="110%" height="500%">
@@ -32,20 +22,20 @@
       .bg-dark  { display: block; }
       .bg-light { display: none; }
 
-      .title    { font: 700 46px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #e0f2fe; }
-      .subtitle { font: 400 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #e0f2fe; opacity: 0.45; letter-spacing: 0.04em; }
-      .url      { font: 400 13px 'Segoe UI', Ubuntu, monospace; fill: #e0f2fe; opacity: 0.28; }
-      .accent   { stroke: #7dd3fc; stroke-opacity: 0.35; }
-      .border   { stroke: #7dd3fc; stroke-opacity: 0.15; }
+      .title    { font: 700 46px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #ffffff; }
+      .subtitle { font: 400 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #ffffff; opacity: 0.45; letter-spacing: 0.04em; }
+      .url      { font: 400 13px 'Segoe UI', Ubuntu, monospace; fill: #ffffff; opacity: 0.28; }
+      .accent   { stroke: #ffffff; stroke-opacity: 0.2; }
+      .border   { stroke: #ffffff; stroke-opacity: 0.1; }
 
       @media (prefers-color-scheme: light) {
         .bg-dark  { display: none; }
         .bg-light { display: block; }
-        .title    { fill: #0f172a; }
-        .subtitle { fill: #0f172a; opacity: 0.45; }
-        .url      { fill: #0f172a; opacity: 0.28; }
-        .accent   { stroke: #3b82f6; stroke-opacity: 0.4; }
-        .border   { stroke: #3b82f6; stroke-opacity: 0.2; }
+        .title    { fill: #000000; }
+        .subtitle { fill: #000000; opacity: 0.45; }
+        .url      { fill: #000000; opacity: 0.28; }
+        .accent   { stroke: #000000; stroke-opacity: 0.15; }
+        .border   { stroke: #000000; stroke-opacity: 0.08; }
       }
 
       .title {
@@ -82,11 +72,11 @@
   </defs>
 
   <g class="bg-dark">
-    <rect width="900" height="200" rx="8" fill="url(#bgDark)"/>
+    <rect width="900" height="200" rx="8" fill="#0d1117"/>
     <rect width="900" height="200" rx="8" fill="url(#dotsDark)"/>
   </g>
   <g class="bg-light">
-    <rect width="900" height="200" rx="8" fill="url(#bgLight)"/>
+    <rect width="900" height="200" rx="8" fill="#ffffff"/>
     <rect width="900" height="200" rx="8" fill="url(#dotsLight)"/>
   </g>
 
