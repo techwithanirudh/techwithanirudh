@@ -26,7 +26,7 @@
       .subtitle { font: 400 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #ffffff; opacity: 0.35; letter-spacing: 0.04em; }
       .url      { font: 400 13px 'Segoe UI', Ubuntu, monospace; fill: #ffffff; opacity: 0.28; }
       .accent   { stroke: #ffffff; stroke-opacity: 0.2; }
-      .border   { stroke: #ffffff; stroke-opacity: 0.1; }
+      .border   { stroke: #30363d; stroke-opacity: 1; }
 
       @media (prefers-color-scheme: light) {
         .bg-dark  { display: none; }
