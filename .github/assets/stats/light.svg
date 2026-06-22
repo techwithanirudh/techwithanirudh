@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Anirudh Sriram's GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 710, Total Commits  (last year) : 1938, Total PRs: 517, Total Issues: 45, Contributed to (last year): 12</desc>
+        <desc id="descId">Total Stars Earned: 710, Total Commits  (last year) : 1896, Total PRs: 517, Total Issues: 45, Contributed to (last year): 12</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 13.478390962226426;
+        stroke-dashoffset: 13.502388721886511;
       }
     }
   
