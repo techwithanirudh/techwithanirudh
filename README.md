@@ -1,8 +1,4 @@
-Tips for life: don't give an ai browser access to a pretty public slack worksapce and your github
-
-Also I want to cheese
-
-<p align="center">
+<p align="center">  
   <a href="https://techwithanirudh.com">
     <img src="./.github/assets/banner.svg" alt="Hey, I'm Anirudh" width="100%" />
   </a>
