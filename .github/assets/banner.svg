@@ -86,6 +86,4 @@
   <line x1="40" y1="199" x2="860" y2="199" class="accent bottom-line" filter="url(#lineGlow)"/>
 
   <text x="450" y="96"  text-anchor="middle" class="title">Hey, I&#39;m Anirudh</text>
-  <text x="450" y="130" text-anchor="middle" class="subtitle">Into Next.js and AI</text>
-
 </svg>
