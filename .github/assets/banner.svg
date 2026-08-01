@@ -1,14 +1,17 @@
-<svg width="900" height="200" viewBox="0 0 900 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hey, I'm Anirudh — Into Next.js and AI">
+<svg width="900" height="150" viewBox="0 0 900 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hey, I'm Anirudh">
   <title>Hey, I'm Anirudh</title>
   <defs>
+
 
     <pattern id="dotsDark" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
       <circle cx="12" cy="12" r="1" fill="#ffffff" opacity="0.06"/>
     </pattern>
 
+
     <pattern id="dotsLight" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
       <circle cx="12" cy="12" r="1" fill="#000000" opacity="0.06"/>
     </pattern>
+
 
     <filter id="lineGlow" x="-5%" y="-200%" width="110%" height="500%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
@@ -18,15 +21,18 @@
       </feMerge>
     </filter>
 
+
     <style>
       .bg-dark  { display: block; }
       .bg-light { display: none; }
+
 
       .title    { font: 700 46px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #ffffff; }
       .subtitle { font: 400 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #ffffff; opacity: 0.35; letter-spacing: 0.04em; }
       .url      { font: 400 13px 'Segoe UI', Ubuntu, monospace; fill: #ffffff; opacity: 0.28; }
       .accent   { stroke: #ffffff; stroke-opacity: 0.2; }
       .border   { stroke: #30363d; stroke-opacity: 1; }
+
 
       @media (prefers-color-scheme: light) {
         .bg-dark  { display: none; }
@@ -37,6 +43,7 @@
         .accent   { stroke: #d0d7de; stroke-opacity: 1; }
         .border   { stroke: #d0d7de; stroke-opacity: 1; }
       }
+
 
       .title {
         opacity: 0;
@@ -63,6 +70,7 @@
         animation: drawLine 1.4s ease 0.2s forwards;
       }
 
+
       @keyframes fadeUp {
         from { opacity: 0; transform: translateY(10px); }
         to   { opacity: 1; transform: translateY(0); }
@@ -71,19 +79,12 @@
     </style>
   </defs>
 
+
   <g class="bg-dark">
-    <rect width="900" height="200" rx="8" fill="#0d1117"/>
-    <rect width="900" height="200" rx="8" fill="url(#dotsDark)"/>
+    <rect width="900" height="150" rx="8" fill="#0d1117"/>
+    <rect width="900" height="150" rx="8" fill="url(#dotsDark)"/>
   </g>
   <g class="bg-light">
-    <rect width="900" height="200" rx="8" fill="#f6f8fa"/>
-    <rect width="900" height="200" rx="8" fill="url(#dotsLight)"/>
+    <rect width="900" height="150" rx="8" fill="#f6f8fa"/>
+    <rect width="900" height="150" rx="8" fill="url(#dotsLight)"/>
   </g>
-
-  <rect x="0.5" y="0.5" width="899" height="199" rx="7.5" fill="none" class="border"/>
-
-  <line x1="40" y1="1"   x2="860" y2="1"   class="accent top-line"    filter="url(#lineGlow)"/>
-  <line x1="40" y1="199" x2="860" y2="199" class="accent bottom-line" filter="url(#lineGlow)"/>
-
-  <text x="450" y="96"  text-anchor="middle" class="title">Hey, I&#39;m Anirudh</text>
-</svg>
