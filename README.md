@@ -1,9 +1,5 @@
-<a href="https://www.imanirudh.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.png" />
-    <img src=".github/assets/banner-light.png" alt="Anirudh Sriram, software engineer" width="100%" />
-  </picture>
-</a>
+[![Anirudh Sriram, software engineer](./.github/assets/banner-dark.png#gh-dark-mode-only)](https://www.imanirudh.com)
+[![Anirudh Sriram, software engineer](./.github/assets/banner-light.png#gh-light-mode-only)](https://www.imanirudh.com)
 
 <br />
 
