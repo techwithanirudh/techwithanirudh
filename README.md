@@ -1,6 +1,11 @@
-<a href="https://www.imanirudh.com">
-  <img src="https://www.imanirudh.com/banner.png" alt="Anirudh Sriram, design engineer and full-stack developer" width="100%" />
-</a>
+<p>
+  <a href="https://www.imanirudh.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://www.imanirudh.com/banner.png?theme=dark" />
+      <img src="https://www.imanirudh.com/banner.png" alt="Anirudh Sriram, design engineer and full-stack developer" width="100%" />
+    </picture>
+  </a>
+</p>
 
 I'm a software engineer who builds AI products and the interfaces around them.
 
