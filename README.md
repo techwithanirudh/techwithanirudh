@@ -1,8 +1,7 @@
 <a href="https://www.imanirudh.com">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.imanirudh.com/banner.png?theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://www.imanirudh.com/banner.png" />
-    <img src="https://www.imanirudh.com/banner.png" alt="Anirudh Sriram, design engineer and full-stack developer" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.png" />
+    <img src=".github/assets/banner-light.png" alt="Anirudh Sriram, software engineer" width="100%" />
   </picture>
 </a>
 
